@@ -6,7 +6,7 @@ namespace VectorClassGenerator
     {
         static void Main(string[] args)
         {
-            Vector[] vectors = Vector.CreateVectors(2, 0, 100);
+            Vector[] vectors = Vector.CreateVectors(); // применены значения по умолчанию
 
             Console.WriteLine($"Вектор 1: {vectors[0]}");
             Console.WriteLine($"Вектор 2: {vectors[1]}");

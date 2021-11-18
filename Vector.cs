@@ -72,7 +72,7 @@ namespace VectorClassGenerator
         /// <param name="number">Колличество генерируемых векторов.</param>
         /// <param name="minRandomСoordinateValue">Минимальное генерируемое значение координаты вектора.</param>
         /// <param name="maxRandomСoordinateValue">Максимальное генерируемое значение координаты вектора.</param>
-        public static Vector[] CreateVectors(int number, int minRandomСoordinateValue, int maxRandomСoordinateValue)
+        public static Vector[] CreateVectors(int number = 2, int minRandomСoordinateValue = 0, int maxRandomСoordinateValue = 100)
         {
             Random random = new Random();
             Vector[] vectors = new Vector[number];
